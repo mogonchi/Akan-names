@@ -16,6 +16,6 @@
     padding: 5rem;
     margin: 5rem;
     border: 5rem;
-    background-color: gray;
-
+    background-color: rgb(4, 82, 82);
+    column-width: 50rem;
 }
