@@ -5,6 +5,7 @@ Akan names are names given in Ghana basing on the day a child is born and their 
 **Setup instruction**
 Clone the repo to get this project in local copy.
 Fork this project to your github account, clone it and create the branch to make the changes on, then push to your remote repository.
+git clone: https://github.com/mogonchi/Akan-names.git
 **BDD**
 The user enters the date of birth at the box provided and selects the gender.
 clicks the submit button and it generates the Akan name basind o their day of birth and gender.
