@@ -15,7 +15,7 @@ Javascript
 Css
 **Contact information**
 Dolvine Mogonchi; monyenyedolvine@gmail.com
-live link;
+live link; https://mogonchi.github.io/Akan-names/
 tel; 0714343477
 **license and copyright information**
 Under MIT license. For more license and copyright information, see license information.
