@@ -13,9 +13,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(7, 7, 71);
     text-align: center;
-    padding: 5rem;
-    margin: 5rem;
-    border: 5rem;
+    padding: 3rem;
+    margin: 3rem;
+    border: 3rem;
     background-color: rgb(4, 82, 82);
     column-width: 50rem;
+    
 }
