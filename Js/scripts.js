@@ -8,3 +8,12 @@ var akan = function(yy, mm, dd, g) {
         return dd && maleNames[dd.getDay()];
     }
 }
+var year = document.getElementById("year");
+var month = document.getElementById("month");
+var day = document.getElementById("day");
+var gender = document.querySelector('input[name="gender"]:checked');
+var button = document.getElementById("submit");
+
+button.addEventListener("click", function(){
+    alert("name")
+})
