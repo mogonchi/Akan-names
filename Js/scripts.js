@@ -4,9 +4,9 @@ var akan = function(cc, yy, mm, dd, g) {
     var day = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7
     day = Math.trunc(day)
     if (g === "Female") {
-        alert(femaleNames[day]); 
+        alert("Your Akan name is: " + femaleNames[day]); 
     } else {
-        alert(maleNames[day]);
+        alert("Your Akan name is; " + maleNames[day]);
     }
 }
     var button = document.getElementById("submit");
