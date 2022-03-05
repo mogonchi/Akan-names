@@ -9,20 +9,21 @@ var akan = function(cc, yy, mm, dd, g) {
         alert(maleNames[day]);
     }
 }
-var year = document.getElementById("year").value;
-var month = document.getElementById("month").value;
-var day = document.getElementById("day").value;
-var gender = document.querySelector('input[name="gender"]:checked');
-var button = document.getElementById("submit");
-var century = year.substring(0, 2);
-var partYear = year.substring(2, 4);
+    var button = document.getElementById("submit");
 
 button.addEventListener("click", function(){ 
+    var year = document.getElementById("year").value;
+    var month = document.getElementById("month").value;
+    var day = document.getElementById("day").value;
+    var gender = document.querySelector('input[name="gender"]:checked').value;
+    
+    var century = year.substring(0, 2);
+    var partYear = year.substring(2, 4);
     console.log(gender)
     century = parseInt(century);
     month = parseInt(month);
     partYear = parseInt(partYear);
     day = parseInt(day);
     
-    akan(century, partYear, month, day, gender.value);
+    akan(century, partYear, month, day, gender);
 })
