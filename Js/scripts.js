@@ -1,12 +1,14 @@
 var akan = function(cc, yy, mm, dd, g) {
     var femaleNames = ["Akosua", "Adwao", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var maleNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-    var daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-    day = daysOfTheWeek [];
+    var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var day = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )%7;
+    day = Math.floor(day) 
     if (g === "Female") {
-        alert("Your Akan name is: " + femaleNames + "and your day is" + {day} ); 
+        console.log(day)
+        alert("Your Akan name is: " + femaleNames[day] + "  and your day is  " + daysOfTheWeek [day]); 
     } else {
-        alert("Your Akan name is; " + maleNames + "and your day is" + {day} );
+        alert("Your Akan name is; " + maleNames[day] + "and your day is  " + daysOfTheWeek [day]);
     }
 }
     var button = document.getElementById("submit");
@@ -24,7 +26,11 @@ button.addEventListener("click", function(){
     month = parseInt(month);
     partYear = parseInt(partYear);
     day = parseInt(day);
-    
+    console.log(century)
+    console.log(year)
+    console.log(month)
+    console.log(day)
+    console.log(partYear)
     akan(century, partYear, month, day, gender);
 })
 
